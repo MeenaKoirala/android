@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.meena.myproject.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/polynomial_button"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/string_polynomial"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gcd_button"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/string_GCD"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/polynomial_button" />
+
+    <Button
+        android:id="@+id/matrix_button"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/string_matrix"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcd_button" />
+
+    <Button
+        android:id="@+id/primefactor_button"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/string_prime_factor"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matrix_button" />
+</android.support.constraint.ConstraintLayout>

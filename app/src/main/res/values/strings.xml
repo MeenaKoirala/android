@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_polynomial">Polynomial</string>
+    <string name="string_GCD">GCD</string>
+    <string name="string_matrix">Matrix</string>
+    <string name="string_prime_factor">Prime Factor</string>
+    <string name="title_activity_polynomial">Polynomial</string>
+    <string name="polynomial_videos">Polynomial Videos</string>
+    <string name="poly_solve">Solve Polynomials</string>
+    <string name="title_activity_gcd">GCD</string>
+    <string name="str_gcd_videos">GCD Videos</string>
+    <string name="str_find_GCD">Find GCD</string>
+    <string name="back">Back</string>
+    <string name="title_activity_matrix">Matrix</string>
+    <string name="str_matrix_video">Matrix Videos</string>
+    <string name="str_matrix_solve">Matrix Solve</string>
+    <string name="title_activity_prime_factor">Prime Factor</string>
+    <string name="str_pfactor_videos">Prime Factor Videos</string>
+    <string name="str_pfactor_solve">Prime Factor Solve</string>
+    <string name="title_activity_learn_polynomial">learnPolynomial</string>
+    <string name="title_activity_poly_calculate">PolyCalculate</string>
+    <string name="input_poly1">Enter Polynomial 1</string>
+    <string name="input_poly2">Enter Polynomial 2</string>
+    <string name="str_poly_calc">Calculate</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.meena.myproject.Matrix"
+    tools:showIn="@layout/activity_matrix">
+
+    <Button
+        android:id="@+id/matrix_back"
+        android:layout_width="346dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matrix_solve" />
+
+    <Button
+        android:id="@+id/matrix_videos"
+        android:layout_width="354dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/str_matrix_video"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/matrix_solve"
+        android:layout_width="346dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/str_matrix_solve"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matrix_videos" />
+</android.support.constraint.ConstraintLayout>
